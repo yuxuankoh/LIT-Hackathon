@@ -9,7 +9,7 @@
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i" rel="stylesheet">
 <link href="assets/css/theme.css" rel="stylesheet">
-
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 </head>
 <body class="layout-default">
 <!-- NAV
@@ -174,7 +174,7 @@
 					</div>
 					<div class="sidebar-section">
 						<h5><span>Useful Links</span></h5>
-						<ul style="list-none;">
+						<ul style="list-style-type:none;">
 							<li><a target="_blank" href="https://www.gov.sg/features/covid-19">Gov.sg</a></li>
 							<li><a target="_blank" href="https://www.moh.gov.sg/">MOH Release</a></li>
 							<li><a target="_blank" href="https://www.straitstimes.com/">The Straits Times</a></li>
@@ -289,5 +289,40 @@
 <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
 <script src="assets/js/masonry.pkgd.min.js"></script>
 <script src="assets/js/theme.js"></script>
+
+
+<!--Dialogflow chatbot-->
+<df-messenger
+	intent="WELCOME"
+	chat-title="Covid-19Bot"
+	agent-id="fdc05c06-fe13-4658-b925-69881a1b8330"
+	language-code="en"
+></df-messenger>
+<!-- If you want to customise the df messenger -->
+<!-- <style>
+	df-messenger {
+	 --df-messenger-bot-message: #878fac;
+	 --df-messenger-button-titlebar-color: #df9b56;
+	 --df-messenger-chat-background-color: #fafafa;
+	 --df-messenger-font-color: white;
+	 --df-messenger-send-icon: #878fac;
+	 --df-messenger-user-message: #479b3d;
+	}
+</style> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+	//To minimise the height of chatbox
+	$(document).ready(function() {
+		window.addEventListener('dfMessengerLoaded', function (event) {
+		$r1 = document.querySelector("df-messenger");
+		$r2 = $r1.shadowRoot.querySelector("df-messenger-chat");
+		$r3 = $r2.shadowRoot.querySelector("df-messenger-user-input"); //for other mods
+		var sheet = new CSSStyleSheet;
+		// manage box height from here
+		sheet.replaceSync( `div.chat-wrapper[opened="true"] { height: 350px; width:300px }`);
+		$r2.shadowRoot.adoptedStyleSheets = [ sheet ];
+		});
+	});
+</script>
 </body>
 </html>
