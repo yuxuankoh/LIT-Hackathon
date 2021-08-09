@@ -11,6 +11,7 @@
 <link rel='stylesheet' href='style.css' type='text/css' media='all'/>
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Oswald:400,500,700%7CRoboto:400,500,700%7CHerr+Von+Muellerhoff:400,500,700%7CQuattrocento+Sans:400,500,700' type='text/css' media='all'/>
 <link rel='stylesheet' href='css/easy-responsive-shortcodes.css' type='text/css' media='all'/>
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 </head>
 <body class="home page page-template page-template-template-portfolio page-template-template-portfolio-php">
 <div id="page">
@@ -118,6 +119,29 @@
 	</div>
 	<!-- .container -->
 </div>
+<!-- Dialogflow -->
+<df-messenger
+	intent="WELCOME"
+	chat-title="Covid-19Bot"
+	agent-id="fdc05c06-fe13-4658-b925-69881a1b8330"
+	language-code="en"
+></df-messenger>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+	//To minimise the height of chatbox
+	$(document).ready(function() {
+		window.addEventListener('dfMessengerLoaded', function (event) {
+		$r1 = document.querySelector("df-messenger");
+		$r2 = $r1.shadowRoot.querySelector("df-messenger-chat");
+		$r3 = $r2.shadowRoot.querySelector("df-messenger-user-input"); //for other mods
+		var sheet = new CSSStyleSheet;
+		// manage box height from here
+		sheet.replaceSync( `div.chat-wrapper[opened="true"] { height: 350px; width:300px }`);
+		$r2.shadowRoot.adoptedStyleSheets = [ sheet ];
+		});
+	});
+</script>
+
 <!-- #page -->
 <script src='js/jquery.js'></script>
 <script src='js/plugins.js'></script>
