@@ -849,3 +849,20 @@ iframe {
     .form-group .col-md-6:first-child {   margin-bottom: 1rem;}
     
 }
+/* Home page image layout */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+  
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 25%;
+    padding: 0 4px;
+}
+  
+.column img {
+    margin-top: 10px;
+    vertical-align: middle;
+}
