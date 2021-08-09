@@ -1,0 +1,53 @@
+{
+    "name": "Tourism",
+    "url": "https://www.singstat.gov.sg/find-data/search-by-theme/industry/tourism/latest-data",
+    "date_last_ran": "Mon Aug 09 2021 08:19:00 GMT+0000 (Coordinated Universal Time)",
+    "date_last_ran_timestamp": 1628497140061,
+    "data": [
+        {
+            "Items": "Visitor Arrivals (excluding Malaysian arrivals by land)",
+            "Items_link": null,
+            "LatestData": "2,742.2",
+            "LatestPeriod": "2020",
+            "PercentageChangeLatest": "-85.7",
+            "PercentageChangePrevious": "3.3",
+            "PerviousData": "19,116.0",
+            "Unit": "'000",
+            "index": 1,
+            "timestamp": 1628497139557,
+            "uid": "IgyuCcYKARqAar0xmm40",
+            "url": "https://www.singstat.gov.sg/find-data/search-by-theme/industry/tourism/latest-data",
+            "url_uid": 1
+        },
+        {
+            "Items": "Hotel Occupancy Rate 3/",
+            "Items_link": "https://www.singstat.gov.sg#Tourism_27d87f28afe9496487ec036850a8fdd0_footnote",
+            "LatestData": "56.7",
+            "LatestPeriod": "2020",
+            "PercentageChangeLatest": "-34.8",
+            "PercentageChangePrevious": "0.9",
+            "PerviousData": "86.9",
+            "Unit": "%",
+            "index": 2,
+            "timestamp": 1628497139557,
+            "uid": "zP869un0NgxuH9dMv173",
+            "url": "https://www.singstat.gov.sg/find-data/search-by-theme/industry/tourism/latest-data",
+            "url_uid": 1
+        },
+        {
+            "Items": "Available Room Nights 4/",
+            "Items_link": "https://www.singstat.gov.sg#Tourism_27d87f28afe9496487ec036850a8fdd0_footnote",
+            "LatestData": "14,002.5",
+            "LatestPeriod": "2020",
+            "PercentageChangeLatest": "-35.8",
+            "PercentageChangePrevious": "2.6",
+            "PerviousData": "21,799.8",
+            "Unit": "'000",
+            "index": 3,
+            "timestamp": 1628497139557,
+            "uid": "YFrqJV5P1R6RfpVTdX90",
+            "url": "https://www.singstat.gov.sg/find-data/search-by-theme/industry/tourism/latest-data",
+            "url_uid": 1
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Service",
+  "url": "https://www.singstat.gov.sg/find-data/search-by-theme/industry/services/latest-data",
+  "date_last_ran": "Mon Aug 09 2021 07:01:28 GMT+0000 (Coordinated Universal Time)",
+  "date_last_ran_timestamp": 1628492488243,
+  "data": [
+    {
+      "Items": "Retail Sales Index at Current Prices",
+      "Items_link": "https://www.singstat.gov.sg/-/media/files/news/mrsjun2021.pdf",
+      "LatestData": "83.6",
+      "LatestPeriod": "Jun-21",
+      "PercentageChangeLatest": "25.8",
+      "PercentageChangePrevious": "79.9",
+      "PreviousData": "84.9",
+      "index": 1,
+      "timestamp": 1628492487870,
+      "uid": "db5vGBZNDMyY3dAvcgB0",
+      "url": "https://www.singstat.gov.sg/find-data/search-by-theme/industry/services/latest-data",
+      "url_uid": 1
+    },
+    {
+      "Items": "Food & Beverage Services Index at Current Prices",
+      "Items_link": "https://www.singstat.gov.sg/-/media/files/news/mrsjun2021.pdf",
+      "LatestData": "62.5",
+      "LatestPeriod": "Jun-21",
+      "PercentageChangeLatest": "7.3",
+      "PercentageChangePrevious": "46.4",
+      "PreviousData": "72.9",
+      "index": 2,
+      "timestamp": 1628492487870,
+      "uid": "F9JWkF2IoVlyuLM8Wg5o",
+      "url": "https://www.singstat.gov.sg/find-data/search-by-theme/industry/services/latest-data",
+      "url_uid": 1
+    },
+    {
+      "Items": "Domestic Wholesale Trade Index at Current Prices",
+      "Items_link": "https://www.singstat.gov.sg/-/media/files/news/wti1q2021.pdf",
+      "LatestData": "90.2",
+      "LatestPeriod": "Q1/21",
+      "PercentageChangeLatest": "-4.7",
+      "PercentageChangePrevious": "-26.8",
+      "PreviousData": "76.6",
+      "index": 3,
+      "timestamp": 1628492487870,
+      "uid": "lTfnDr0pmFEcTSn1paNG",
+      "url": "https://www.singstat.gov.sg/find-data/search-by-theme/industry/services/latest-data",
+      "url_uid": 1
+    },
+    {
+      "Items": "Foreign Wholesale Trade Index at Current Prices",
+      "Items_link": "https://www.singstat.gov.sg/-/media/files/news/wti1q2021.pdf",
+      "LatestData": "101.6",
+      "LatestPeriod": "Q1/21",
+      "PercentageChangeLatest": "11.3",
+      "PercentageChangePrevious": "-14.0",
+      "PreviousData": "94.7",
+      "index": 4,
+      "timestamp": 1628492487870,
+      "uid": "9EfWGaSFXMPuPEJKFbCT",
+      "url": "https://www.singstat.gov.sg/find-data/search-by-theme/industry/services/latest-data",
+      "url_uid": 1
+    },
+    {
+      "Items": "Business Receipts Index",
+      "Items_link": "https://www.singstat.gov.sg/-/media/files/news/qbri1q2021.pdf",
+      "LatestData": "116.3",
+      "LatestPeriod": "Q1/21",
+      "PercentageChangeLatest": "-1.5",
+      "PercentageChangePrevious": "-7.6",
+      "PreviousData": "117.0",
+      "index": 5,
+      "timestamp": 1628492487870,
+      "uid": "k2pBADTwWpc0lghBiqeN",
+      "url": "https://www.singstat.gov.sg/find-data/search-by-theme/industry/services/latest-data",
+      "url_uid": 1
+    }
+  ]
+}
