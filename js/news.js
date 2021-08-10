@@ -3,7 +3,7 @@ const https = require("https");
 
 const app = express();
 app.get("/", function(req, res){
-    const url = "https://newsapi.org/v2/everything?q=Covid&from=2021-08-09&sortBy=popularity&apiKey=ad78940518af41fe97d6be1036fd18ed"
+    const url = "https://newsapi.org/v2/top-headlines?country=sg&q=Covid&from=2021-08-09&sortBy=popularity&apiKey=ad78940518af41fe97d6be1036fd18ed"
     https.get(url, function(response){
         console.log(response.statusCode);
         response.on("data", function(data){
