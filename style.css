@@ -1,6 +1,11 @@
 img {
-	border: 5px solid #555;
+	border: 30px solid #FFFFFF;
   }
+img.resize {
+	max-width: 75%;
+	margin-left: auto;
+	margin-right: auto
+}
 @font-face {
 	font-family:'Genericons';
 	src:url('fonts/genericons-regular-webfont.eot');
@@ -152,12 +157,13 @@ h1,h2,h3,h4,h5,h6 {
 	font-weight:700;
 	margin-top:20px;
 	margin-bottom:10px;
+	
 }
 h1 {
 	font-size:36px;
 }
 h2 {
-	font-size:30px;
+	font-size:40px;
 }
 h3 {
 	font-size:24px;
@@ -2029,11 +2035,11 @@ a.portfoliotype:last-child:after {
 }
 .woocommerce div.product .woocommerce-tabs .panel h2,.related.products h2,.woocommerce #reviews h3,.cart_totals h2,.upsells.products h2 {
 	font-weight:400;
-	font-size:17px;
+	font-size:30px;
 	margin-top:0;
 }
 .woocommerce form h3,.woocommerce-account h2,.woocommerce-account h3 {
-	font-size:17px;
+	font-size:30px;
 	font-weight:400;
 }
 .woocommerce div.product .woocommerce-tabs ul.tabs li {
@@ -2153,14 +2159,13 @@ form.comment-form {
 }
 /* CUSTOM STYLE */
 body { font-family: 'Roboto'; }
-h1, h2, h3, h4, h5, h6 { font-family: 'Oswald'; }
-.site-title { font-family: 'Herr Von Muellerhoff'; }
-.site-description { font-family: 'Quattrocento Sans'; }
-.entry-title { font-family: 'Oswald'; }
-.main-navigation { font-family: 'Oswald'; }
-.widget-title { font-family: 'Oswald' !important; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Georgia'; }
+.site-description { font-family: 'Georgia'; }
+.entry-title { font-family: 'Georgia'; }
+.main-navigation { font-family: 'Georgia'; }
+.widget-title { font-family: 'Georgia' !important; }
 body {
-	font-size: 14px;
+	font-size: 16px;
 }
 h1,
 h2,
@@ -2175,7 +2180,7 @@ h6 {
 	text-transform: none;
 }
 h1 { font-size: 36px; }
-h2 { font-size: 30px; }
+h2 { font-size: 40px; }
 h3 { font-size: 24px; }
 h4 { font-size: 18px; }
 h5 { font-size: 14px; }
