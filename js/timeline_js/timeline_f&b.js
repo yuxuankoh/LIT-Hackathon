@@ -84,7 +84,7 @@ function generateEvents(array_of_events){
             continue;
         }
         //This is the template:
-        // <div class="container left/right">
+        // <div class="container">
         //   <div class="circle"></div>
         //   <div class="content">
         //     <h2>2017</h2>
@@ -131,8 +131,6 @@ function generateEvents(array_of_events){
             window.open(link,'_blank')//open google calendar in new window
         }
 
-       
-
         content_div.appendChild(h2_el)
         content_div.appendChild(p_el)
         content_div.appendChild(add_el)
@@ -141,6 +139,7 @@ function generateEvents(array_of_events){
         container_div.appendChild(content_div)
         timeline_el.appendChild(container_div)
     }      
+
 }
 //turn to this format 20200222T000000/20200223T000000
 function formatDate(date){

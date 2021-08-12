@@ -8,6 +8,7 @@
     border-collapse: collapse;
     padding: 0px 0px;
     margin-bottom: 0px;
+    margin-top: 20px;
 }
 
 #ServiceTable tr:nth-child(even){background-color: #f2f2f2;}

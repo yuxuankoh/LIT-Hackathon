@@ -2296,12 +2296,8 @@ h1, h2, h3, h4, h5, h6 {
     user-select: none;
 }
 
-
-.FeaturedArticlesRow{
-	display: flex;
-	flex-direction: row;
-}
 article{
-	padding-left: 50px;
+	margin: 0px 5px;
 }
+
 
