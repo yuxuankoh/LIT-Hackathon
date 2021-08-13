@@ -347,3 +347,12 @@ body {
   overflow: auto;
   height: 150px;
 }
+
+df-messenger {
+  --df-messenger-bot-message: var(--Grey);
+  --df-messenger-button-titlebar-color: var(--DarkBlue);
+  --df-messenger-chat-background-color: white;
+  --df-messenger-font-color: white;
+  --df-messenger-send-icon: var(--DarkBlue);
+  --df-messenger-user-message: var(--LighterBlue);
+ } 
