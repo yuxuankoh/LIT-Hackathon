@@ -28,7 +28,7 @@ with open('../scrapped_json_old/food_retail.json', 'r') as f:
 nlp_model = spacy.load('test_model')
 
 # output csv timeline
-with open('csv/timeline_manpower.csv', mode='w', newline='') as file:
+with open('../timeline_csvs/timeline_food_retail.csv', mode='w', newline='') as file:
   writer = csv.writer(file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
     
   for i in range(1, len(raw_data)):
