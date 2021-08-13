@@ -1,0 +1,65 @@
+[
+    {
+        "question": "What financial assistance will be available to affected businesses and individuals under Phase 2 (Heightened Alert) and Phase 3 (Heightened Alert)?",
+        "answer": "Please refer to the infographics below on support measures for businesses and individuals during this period.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Will there be updates on the GoBusiness portal for businesses, e.g. what are the permissible activities?",
+        "answer": "Please refer to the Safe Management Measures and guidelines stipulated in the sector-specific advisories on the GoBusiness portal.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Some tuition and enrichment classes involve high movement activities (e.g. sports, dance), or activities which carry a higher risk of virus transmission through droplet spread (e.g. singing, wind/brass instruments). What additional safe management measures should be implemented?",
+        "answer": "All classes involving indoor mask-off activities are to be suspended. For indoor mask-on activities, as well as outdoor physical activity classes, additional safe management measures apply:",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "How do I declare my manpower details?",
+        "answer": "Please login (https://go.gov.sg/covidbusinessresumptions). Thereafter, please click on the button submit manpower to submit your manpower details.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "How do I verify my JSS eligibility?",
+        "answer": "You may check your businesss JSS eligibility (https://mytax.iras.gov.sg/ESVWeb/default.aspx?target=JSSEmployerEligibilitySearch).",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Am I allowed to operate at full capacity during this time?  Or must we limit work to specific hours or at certain manpower limits?",
+        "answer": "Employers must ensure that all employees who are able to work from home do so. For those that are unable to work from home, employers should stagger start times and allow flexible workplace hours. Employees should not be cross deployed to other worksites.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "How do I calculate the total no. of manpower working on-site?",
+        "answer": "This refers to the total number of employees working on-site (i.e. no longer working from home).",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "What are the safe management measures that should be implemented for face-to-face lessons operating out of private residences?",
+        "answer": "MOE strongly encourages that all tuition and enrichment classes be conducted online, in light of the uncertain situation. For home-based tuition/enrichment that conduct face-to-face lessons, subject to the prevailing national group size limit and number of unique household visitors allowed per day.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "I anticipate that my business will continue to face challenges, even after the lifting of restrictions after 13 Jun 2021. Can the Government consider providing financial support for such businesses?",
+        "answer": "Businesses that face cashflow challenges can continue to tap on the extended Temporary Bridging Loan Programme and enhanced Enterprise Financing Scheme, and we encourage businesses to make full use of these schemes.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    }
+]

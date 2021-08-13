@@ -1,0 +1,331 @@
+[
+    {
+        "question": "What financial assistance will be available to affected businesses and individuals under Phase 2 (Heightened Alert) and Phase 3 (Heightened Alert)?",
+        "answer": "Please refer to the infographics below on support measures for businesses and individuals during this period.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Will there be updates on the GoBusiness portal for businesses, e.g. what are the permissible activities?",
+        "answer": "Please refer to the Safe Management Measures and guidelines stipulated in the sector-specific advisories on the GoBusiness portal.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Some tuition and enrichment classes involve high movement activities (e.g. sports, dance), or activities which carry a higher risk of virus transmission through droplet spread (e.g. singing, wind/brass instruments). What additional safe management measures should be implemented?",
+        "answer": "All classes involving indoor mask-off activities are to be suspended. For indoor mask-on activities, as well as outdoor physical activity classes, additional safe management measures apply:",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "How do I declare my manpower details?",
+        "answer": "Please login (https://go.gov.sg/covidbusinessresumptions). Thereafter, please click on the button submit manpower to submit your manpower details.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "How do I verify my JSS eligibility?",
+        "answer": "You may check your businesss JSS eligibility (https://mytax.iras.gov.sg/ESVWeb/default.aspx?target=JSSEmployerEligibilitySearch).",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Am I allowed to operate at full capacity during this time?  Or must we limit work to specific hours or at certain manpower limits?",
+        "answer": "Employers must ensure that all employees who are able to work from home do so. For those that are unable to work from home, employers should stagger start times and allow flexible workplace hours. Employees should not be cross deployed to other worksites.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "How do I calculate the total no. of manpower working on-site?",
+        "answer": "This refers to the total number of employees working on-site (i.e. no longer working from home).",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "What are the safe management measures that should be implemented for face-to-face lessons operating out of private residences?",
+        "answer": "MOE strongly encourages that all tuition and enrichment classes be conducted online, in light of the uncertain situation. For home-based tuition/enrichment that conduct face-to-face lessons, subject to the prevailing national group size limit and number of unique household visitors allowed per day.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "I anticipate that my business will continue to face challenges, even after the lifting of restrictions after 13 Jun 2021. Can the Government consider providing financial support for such businesses?",
+        "answer": "Businesses that face cashflow challenges can continue to tap on the extended Temporary Bridging Loan Programme and enhanced Enterprise Financing Scheme, and we encourage businesses to make full use of these schemes.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "I am a freelancer and do not have a Singapore Standard Industrial Classification (SSIC) code. How do I know if I can resume service?",
+        "answer": "Freelancers have to be registered with ACRA, unless the business is carried out in your full name as reflected in your NRIC. For more information, please refer (https://www.acra.gov.sg/how-to-guides/before-you-start/who-must-register).",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Is there a minimum percentage or number of workers that employers must place on work-from-home-arrangements?",
+        "answer": "The objective of the requirements is to reduce physical interactions in the workplace in order to minimise spread of COVID-19. Employers should focus on providing the facilities necessary and directing every worker to work from home, as far as reasonably practicable. The proportion of employees that can do so will vary in different workplaces and sectors due to differing operational requirements.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "How do I calculate the maximum number of workers on-site at any time?",
+        "answer": "This refers to the maximum number of workers on site at any given time (after taking into account shift work/split team arrangements/part-time).",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Are private schools, including tuition and enrichment centres, allowed to hold year-end concerts or performances on their premises?",
+        "answer": "All indoor live performances by tuition and enrichment centres scheduled to take place 22 July through 18 August 2021 (both dates inclusive) are to be deferred/postponed to reduce the risk of transmission.",
+        "start": [],
+        "end": [
+            "18 August 2021"
+        ],
+        "day_of": []
+    },
+    {
+        "question": "How do I know if my company is allowed to operate?",
+        "answer": "Your company is allowed to operate if your companys activities are in MTIs list of permitted services (https://www.gobusiness.gov.sg/images/covid/Permitted Services (11 May).pdf). Businesses in this list do not need to apply to MTI for exemption before operating.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Are companies that are operating required to ensure that their employees work from home?",
+        "answer": "Work-from-home will continue to be the default at workplaces. Employers must provide the necessary facilities and direct their employees to work from home wherever possible.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "I am unable to declare my manpower details. What should I do?",
+        "answer": "Please refer to this (/guides/) for instructions on how to declare your manpower details. If you continue to face any issues declaring your manpower details, please contact (mailto:COVID_GoBusiness@mti.gov.sg) for assistance.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Will Continuing Education and Training (CET) courses for adults be allowed to continue?",
+        "answer": "All training providers are strongly encouraged to continue conducting CET training online.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "If my companys activities belong to the list of permitted services, will I be able to operate all my business functions?",
+        "answer": "If your company has other business functions or services that are not in the list of permitted services, these other business functions or services should be suspended until further notice.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Do I need to send my staff for regular testing?",
+        "answer": "All employees who work at settings with unmasked clients/patron, or where there is prolonged contact between individuals, are required to be placed on a regular Fast and Easy Tests (FET) regime using tests such as antigen rapid tests (ART). These include staff of:",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "How long do I need to keep declaring/submitting my manpower details? Do I need to update this information on a daily basis whenever there are changes to my manpower count?",
+        "answer": "You will be expected to ensure that your manpower details are updated regularly. Any significant changes to the manpower count or manpower details which you had declared earlier should be updated as soon as possible.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Can private tuition/enrichment classes and training sessions be held in external venues (e.g. function rooms)?",
+        "answer": "Private tuition/enrichment classes, and training sessions by the Institutes of Higher Learning and SSG-funded training providers, can be conducted at external venues, if those venues are open. Such external venues may include condominium function rooms, private conference and meeting rooms, etc.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "I operate multiple business activities and have more than one Singapore Standard Industrial Classification (SSIC) code tagged to my business. Which code should I refer to?",
+        "answer": "You should refer to the SSIC code for your primary business activity and check it against the list of permitted services that can operate (/permittedlist/).",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Why do I need to send my staff for regular testing?",
+        "answer": "Identified settings are of higher risks, as clients/patrons are unmasked while in close proximity to one another for prolonged periods of time. Employees who work at these settings would therefore need to undergo 14-day regular FET.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Can I proceed to operate after declaring/submitting my manpower details? Will I receive any notification of approval?",
+        "answer": "You will receive an email acknowledgment of your manpower declaration. In the meantime, you may continue to operate if your business activities fall within MTIs list of permitted services or you have a General Exemption approval to operate onsite. You must adhere to all the relevant safe management measures for your sector.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "I am a private provider / Allied Health Professional offering services for students with Special Educational Needs (SEN) or disabilities. May I provide services and what are the safe management measures that I need to adhere to?",
+        "answer": "Registered Allied Health Professionals (AHPs) defined as professionals regulated by the Allied Health Professions Council and psychologists registered with the Singapore Psychological Societys Register of Psychologists can provide consultation and assessment services for students with special educational needs or disabilities.  These AHPs should adhere to sector-specific guidelines, prevailing precautionary measures and safe distancing requirements, as well as infection and control measures such as hand hygiene and Personal Protective Equipment (PPE) guidelines relevant to each setting.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "I have more than one Singapore Standard Industrial Classification (SSIC) code tagged to my business. If my primary activity does not fall under the list of permitted services, but my secondary activity falls under the list of permitted services, will I still be allowed to operate?",
+        "answer": "No. You may operate only if the SSIC code for your primary business activity falls within the list of permitted services. However, if you intend to only carry out the secondary activity (and not the primary activity) which falls within the list of permitted services, you may submit an application for General Exemption (https://go.gov.sg/covidbusinessresumptions).",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "What is the cost of getting the antigen rapid tests (ART)?",
+        "answer": "For establishments that are required to be placed on mandatory Fast and Easy Tests (FET) regime, the costs for the ART kits and training programmes for employees will be borne by the Government for the first 3 months, until 30 September 2021, during the initial roll-out.",
+        "start": [],
+        "end": [
+            "30 September 2021"
+        ],
+        "day_of": []
+    },
+    {
+        "question": "What happens if I do not receive an acknowledgement email after I have declared my manpower details?",
+        "answer": "If you have not received an acknowledgement email, your email address may be inaccurately captured on our system. For applicants with a Corppass account, kindly login (https://go.gov.sg/covidbusinessresumptions) to verify that your email address is accurately reflected.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Will the TraceTogether-only SafeEntry system and the SafeEntry Gateway Device (SEGW) be implemented for tuition, enrichment centres and SSG-funded training providers?",
+        "answer": "On 4 May 2021, the Multi-Ministry Taskforce (MTF) announced that TraceTogether-only SafeEntry (TT-only SafeEntry) will be implemented at all venues that experience higher throughput of visitors, and/or where people are likely to be in close proximity for prolonged periods from 17 May 2021. The TT programme and SafeEntry are important digital tools that enable contact tracers to quickly identify and isolate close contacts of COVID-19 cases. This helps to break transmission chains and prevent community outbreaks. TT tokens may be collected at designated collection points (please refer to (https://token.gowhere.gov.sg) for more information).",
+        "start": [
+            "17 May 2021"
+        ],
+        "end": [],
+        "day_of": [
+            "4 May 2021"
+        ]
+    },
+    {
+        "question": "My company is carrying out the activity as listed in the list of permitted services. However, my SSIC code does not fall under the listed code on the website. Will I still be allowed to operate?",
+        "answer": "You will need to submit an application for General Exemption (https://go.gov.sg/covidbusinessresumptions) and receive approval from MTI before operating.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "How do I organise/conduct Fast and Easy Tests (FET) for my employees?",
+        "answer": "FET for all dine-in F&B establishments will be conducted via Employer-Supervised Self Swab (ESSS) where employees will swab themselves under the supervision of a trained staff (supervisor). Supervision can be done either in-person or virtually.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Is there a limit to the number of times I can change my manpower declaration details?",
+        "answer": "You may change and resubmit your manpower declaration up to 5 times a day. Each new submission will override all previous submissions.",
+        "start": [],
+        "end": [
+            "5 times"
+        ],
+        "day_of": []
+    },
+    {
+        "question": "Will private tutors providing face-to-face classes operating out of private residences be required to implement the TraceTogether-only SafeEntry system?",
+        "answer": "As with tuition and enrichment centres (see Q9), private tutors providing face-to-face classes operating out of private residences will need to implement TT-only SafeEntry.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "What is the penalty if my company is found operating when we are not allowed to do so?",
+        "answer": "Under the COVID-19 (Temporary Measures) Act, first-time offenders found operating will face a fine of up to $10,000, imprisonment of up to six months, or both. Subsequent offences may face a fine of up to $20,000, imprisonment of up to twelve months, or both.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "I own a small business and am unable to organise the supervised self-swabs on my own. What should I do?",
+        "answer": "We encourage all businesses to conduct employer supervised self-swabs for their employees.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Is there a cap on the number of workers allowed on site?",
+        "answer": "No. However, businesses are required to implement work-from-home as a default and only workers whose work cannot be performed at home are allowed to continue to work on site.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Can MOE help to facilitate a refund of the fees I had already paid for the period where face-to-face classes were suspended for students aged 18 years and younger?",
+        "answer": "As matters pertaining to the payment of fees is a contractual matter and practices vary across different providers, we advise parents, guardians and affected students to work with and seek an amicable resolution directly with the private provider in question.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "I have checked the list of permitted services against my primary SSIC code and I am sure I am allowed to operate. Why is my business resumption status not reflected as permitted?",
+        "answer": "If your primary SSIC code falls into the list of permitted services and you have not changed your primary SSIC code recently, please write to (mailto:covid_gobusiness@mti.gov.sg)  for assistance.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "On the regular testing regime, is there a need to bring it to a shorter interval, instead of 14 days?",
+        "answer": "The Government will monitor the situation closely and if the need arises, the frequency may be increased.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "If my workers are deployed at other premises and not working at my own business premise, do I include them in the onsite manpower declaration?",
+        "answer": "Workers who are not working from home should be counted, i.e. your count of workers should include",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Can private tuition/enrichment classes and training sessions provide food and drinks to students?",
+        "answer": "In line with the prevailing safe management measures, food and drinks should not be provided. Students should keep their masks on at all times, and not consume any food and drinks during classes, as far as possible.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "What if my business activities do not fall under what is stated as permitted services for the SSIC code of my companys primary business activity?",
+        "answer": "Your company may operate the business activities that fall within the list of permitted services.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Can F&B establishments allow dine-in options?",
+        "answer": "From 22 July through 18 August 2021, all F&B establishments can only open for takeaway and/or delivery during this period. Dining-in is prohibited.",
+        "start": [
+            "22 July"
+        ],
+        "end": [
+            "18 August 2021"
+        ],
+        "day_of": []
+    },
+    {
+        "question": "Do I need to submit my manpower details if my business premise is my place of residence?",
+        "answer": "If your registered business premise is your place of residence, you can submit manpower as 0.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Can private tuition/enrichment classes and training sessions involving transient mask-off activities such as food tasting be allowed to continue?",
+        "answer": "To reduce the risks of community transmission, students are required to keep their masks on throughout class. Transient mask-off activities such as food tasting are not allowed during this period. This is in line with the cessation of indoor mask-off activities under Phase Two (Heightened Alert).",
+        "start": [],
+        "end": [],
+        "day_of": []
+    }
+]
