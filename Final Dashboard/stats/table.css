@@ -1,3 +1,9 @@
+:root {
+    --DarkBlue: #05445E;
+    --LighterBlue: #189AB4;
+    --Yellow: #FFBC50;
+  }
+
 .StatTables, .StatTables th,.StatTables td {
     border: 1px solid #ddd;
     padding: 0px 2px;
@@ -8,15 +14,11 @@
     padding: 0px 0px;
     margin-bottom: 0px;
     margin-top: 0px;
-    font-size: 9px;
+    font-size: 12px;
     color: black;
     
 }
-:root {
-    --DarkBlue: #05445E;
-    --LighterBlue: #189AB4;
-    --Yellow: #FFBC50;
-  }
+
 
 .StatTables tr td th:hover{
     text-decoration: none;
