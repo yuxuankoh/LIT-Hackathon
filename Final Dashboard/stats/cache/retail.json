@@ -1,0 +1,224 @@
+{
+    "name": "Retail",
+    "url": "https://www.acra.gov.sg/training-and-resources/facts-and-figures/business-registry-statistics",
+    "date_last_ran": "Fri Aug 13 2021 04:51:49 GMT+0000 (Coordinated Universal Time)",
+    "date_last_ran_timestamp": 1628830309574,
+    "data": [
+        {
+            "Months": "Jan",
+            "Retail": "807",
+            "index": 1,
+            "timestamp": 1628830307983,
+            "uid": "ghsA3kJmtYB76jWmLJNz",
+            "url": "https://www.acra.gov.sg/training-and-resources/facts-and-figures/business-registry-statistics",
+            "url_uid": 1
+        },
+        {
+            "Months": "Feb",
+            "Retail": "595",
+            "index": 2,
+            "timestamp": 1628830307983,
+            "uid": "6ThD39Nql72x7FvLB8qZ",
+            "url": "https://www.acra.gov.sg/training-and-resources/facts-and-figures/business-registry-statistics",
+            "url_uid": 1
+        },
+        {
+            "Months": "Mar",
+            "Retail": "834",
+            "index": 3,
+            "timestamp": 1628830307983,
+            "uid": "pzhkgAMGbN8bkaeDLdoF",
+            "url": "https://www.acra.gov.sg/training-and-resources/facts-and-figures/business-registry-statistics",
+            "url_uid": 1
+        },
+        {
+            "Months": "Apr",
+            "Retail": "706",
+            "index": 4,
+            "timestamp": 1628830307983,
+            "uid": "pzAWr5Cz1W9xDg2Yno9O",
+            "url": "https://www.acra.gov.sg/training-and-resources/facts-and-figures/business-registry-statistics",
+            "url_uid": 1
+        },
+        {
+            "Months": "May",
+            "Retail": "701",
+            "index": 5,
+            "timestamp": 1628830307983,
+            "uid": "khPHPBcrbimUWhLKfxpY",
+            "url": "https://www.acra.gov.sg/training-and-resources/facts-and-figures/business-registry-statistics",
+            "url_uid": 1
+        },
+        {
+            "Months": "Jun",
+            "Retail": "740",
+            "index": 6,
+            "timestamp": 1628830307983,
+            "uid": "RSwyR2lCHW2Raf1A6p3r",
+            "url": "https://www.acra.gov.sg/training-and-resources/facts-and-figures/business-registry-statistics",
+            "url_uid": 1
+        },
+        {
+            "Months": "July",
+            "Retail": "725",
+            "index": 7,
+            "timestamp": 1628830307983,
+            "uid": "xokg3ts5fBq6AOPGDhum",
+            "url": "https://www.acra.gov.sg/training-and-resources/facts-and-figures/business-registry-statistics",
+            "url_uid": 1
+        },
+        {
+            "Months": "Aug",
+            "Retail": null,
+            "index": 8,
+            "timestamp": 1628830307983,
+            "uid": "fgou6ilR1qkoOzyzA5pi",
+            "url": "https://www.acra.gov.sg/training-and-resources/facts-and-figures/business-registry-statistics",
+            "url_uid": 1
+        },
+        {
+            "Months": "Sep",
+            "Retail": null,
+            "index": 9,
+            "timestamp": 1628830307983,
+            "uid": "Tj6B3uLt2d1KNa3hwdMB",
+            "url": "https://www.acra.gov.sg/training-and-resources/facts-and-figures/business-registry-statistics",
+            "url_uid": 1
+        },
+        {
+            "Months": "Oct",
+            "Retail": null,
+            "index": 10,
+            "timestamp": 1628830307983,
+            "uid": "0RHh9amxZvUwhXgFZBl8",
+            "url": "https://www.acra.gov.sg/training-and-resources/facts-and-figures/business-registry-statistics",
+            "url_uid": 1
+        },
+        {
+            "Months": "Nov",
+            "Retail": null,
+            "index": 11,
+            "timestamp": 1628830307983,
+            "uid": "0Hm0O3veKXmNdEwcTwVz",
+            "url": "https://www.acra.gov.sg/training-and-resources/facts-and-figures/business-registry-statistics",
+            "url_uid": 1
+        },
+        {
+            "Months": "Dec",
+            "Retail": null,
+            "index": 12,
+            "timestamp": 1628830307983,
+            "uid": "vd54fYQ0AT71JWISdnsU",
+            "url": "https://www.acra.gov.sg/training-and-resources/facts-and-figures/business-registry-statistics",
+            "url_uid": 1
+        },
+        {
+            "Months": "Jan",
+            "Retail": "362",
+            "index": 13,
+            "timestamp": 1628830307983,
+            "uid": "aQNS5lfIKj00u8BgO93I",
+            "url": "https://www.acra.gov.sg/training-and-resources/facts-and-figures/business-registry-statistics",
+            "url_uid": 1
+        },
+        {
+            "Months": "Feb",
+            "Retail": "366",
+            "index": 14,
+            "timestamp": 1628830307983,
+            "uid": "aLXYVgNhQueWZzrEZgCr",
+            "url": "https://www.acra.gov.sg/training-and-resources/facts-and-figures/business-registry-statistics",
+            "url_uid": 1
+        },
+        {
+            "Months": "Mar",
+            "Retail": "465",
+            "index": 15,
+            "timestamp": 1628830307983,
+            "uid": "JWvXH7MZAdIpeG5XqAA2",
+            "url": "https://www.acra.gov.sg/training-and-resources/facts-and-figures/business-registry-statistics",
+            "url_uid": 1
+        },
+        {
+            "Months": "Apr",
+            "Retail": "397",
+            "index": 16,
+            "timestamp": 1628830307983,
+            "uid": "qZhTGXZU4ZUv1RBFKrJP",
+            "url": "https://www.acra.gov.sg/training-and-resources/facts-and-figures/business-registry-statistics",
+            "url_uid": 1
+        },
+        {
+            "Months": "May",
+            "Retail": "493",
+            "index": 17,
+            "timestamp": 1628830307983,
+            "uid": "2aE1cIwAkpS3IFBNFZsD",
+            "url": "https://www.acra.gov.sg/training-and-resources/facts-and-figures/business-registry-statistics",
+            "url_uid": 1
+        },
+        {
+            "Months": "Jun",
+            "Retail": "464",
+            "index": 18,
+            "timestamp": 1628830307983,
+            "uid": "Uj8vsEntRwQvE04qURgS",
+            "url": "https://www.acra.gov.sg/training-and-resources/facts-and-figures/business-registry-statistics",
+            "url_uid": 1
+        },
+        {
+            "Months": "July",
+            "Retail": "532",
+            "index": 19,
+            "timestamp": 1628830307983,
+            "uid": "vWBjykhAIf64kQHtlItS",
+            "url": "https://www.acra.gov.sg/training-and-resources/facts-and-figures/business-registry-statistics",
+            "url_uid": 1
+        },
+        {
+            "Months": "Aug",
+            "Retail": null,
+            "index": 20,
+            "timestamp": 1628830307983,
+            "uid": "rrwItboH4AF1JvxzBHgB",
+            "url": "https://www.acra.gov.sg/training-and-resources/facts-and-figures/business-registry-statistics",
+            "url_uid": 1
+        },
+        {
+            "Months": "Sep",
+            "Retail": null,
+            "index": 21,
+            "timestamp": 1628830307983,
+            "uid": "Omn36GBv5Ea6Ea6lH8J6",
+            "url": "https://www.acra.gov.sg/training-and-resources/facts-and-figures/business-registry-statistics",
+            "url_uid": 1
+        },
+        {
+            "Months": "Oct",
+            "Retail": null,
+            "index": 22,
+            "timestamp": 1628830307983,
+            "uid": "aRv71u4sd3nuvTguhzpa",
+            "url": "https://www.acra.gov.sg/training-and-resources/facts-and-figures/business-registry-statistics",
+            "url_uid": 1
+        },
+        {
+            "Months": "Nov",
+            "Retail": null,
+            "index": 23,
+            "timestamp": 1628830307983,
+            "uid": "tGko8dDvszIDmHTHpaAB",
+            "url": "https://www.acra.gov.sg/training-and-resources/facts-and-figures/business-registry-statistics",
+            "url_uid": 1
+        },
+        {
+            "Months": "Dec",
+            "Retail": null,
+            "index": 24,
+            "timestamp": 1628830307983,
+            "uid": "FYEbkegYkQw7GC8nqeoN",
+            "url": "https://www.acra.gov.sg/training-and-resources/facts-and-figures/business-registry-statistics",
+            "url_uid": 1
+        }
+    ]
+}

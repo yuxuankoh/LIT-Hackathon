@@ -11,6 +11,8 @@
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/timelinejs/2.36.0/css/timeline.css'>
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css'>
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./timeline/timeline.css">
+<link rel="stylesheet" href="./stats/table.css">
 
 </head>
 <body>
@@ -53,6 +55,14 @@
       </div>
       <!-- /.col-lg-12-->
     </div>
+
+    <!-- For timeline -->
+    <div class="row">
+      <div class="timeline_wrapper">
+        <hr></hr>
+        <div class="timeline", id="timeline">
+      </div>
+    </div>
     
     <!-- FOR STATS -->
     <div class="row">
@@ -65,10 +75,13 @@
               </div>
               <div class="col-xs-9 text-right">
                 <div class="huge">Overview</div>
-                <div></div>
+                <div>
+                </div>
               </div>
             </div>
           </div><a href="#">
+            <!-- (fnb) service table -->
+            <table id="ServiceTable"></table>
             <div class="panel-footer"><span class="pull-left">View Details</span><span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
               <div class="clearfix"></div>
             </div></a>
@@ -192,13 +205,46 @@
   <!-- /#page-wrapper-->
 </div>
 <!-- /#wrapper-->
+
+<!-- Dialogflow -->
+<df-messenger
+	intent="WELCOME"
+	chat-title="Covid-19Bot"
+	agent-id="fdc05c06-fe13-4658-b925-69881a1b8330"
+	language-code="en"
+></df-messenger>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+	//To minimise the height of chatbox
+	$(document).ready(function() {
+		window.addEventListener('dfMessengerLoaded', function (event) {
+		$r1 = document.querySelector("df-messenger");
+		$r2 = $r1.shadowRoot.querySelector("df-messenger-chat");
+		$r3 = $r2.shadowRoot.querySelector("df-messenger-user-input"); //for other mods
+		var sheet = new CSSStyleSheet;
+		// manage box height from here
+		sheet.replaceSync( `div.chat-wrapper[opened="true"] { height: 350px; width:300px }`);
+		$r2.shadowRoot.adoptedStyleSheets = [ sheet ];
+		});
+	});
+</script>
+
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/metisMenu/2.2.0/metisMenu.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/timelinejs/2.36.0/js/timeline-min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.4/raphael-min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js'></script><script  src="./script.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js'></script>
+<script  src="./script.js"></script>
+<script  src="./timeline\timeline_js\timeline_f&b.js"></script> <!-- timeline -->
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script><!-- dialogflow messenger -->
+<!-- Actual api-->
+<!-- <script src="js\stats_js\service\fromAPI_service.js"></script> -->
+<!-- From cache -->
+<script src="./stats/stats_js/service/fromLocal_service.js"></script><!-- Industry Stats -->
+
+
 
 </body>
 </html>

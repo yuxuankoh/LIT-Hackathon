@@ -1,0 +1,37 @@
+.StatTables, .StatTables th,.StatTables td {
+    border: 1px solid #ddd;
+    padding: 0px 2px;
+}
+
+.StatTables{
+    border-collapse: collapse;
+    padding: 0px 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 9px;
+    color: black;
+    
+}
+:root {
+    --DarkBlue: #05445E;
+    --LighterBlue: #189AB4;
+    --Yellow: #FFBC50;
+  }
+
+.StatTables tr td th:hover{
+    text-decoration: none;
+}
+
+.StatTables tr:nth-child(even){background-color: #f2f2f2;}
+
+.StatTables tr:nth-child(odd){background-color: #e2e2e2;}
+
+.StatTables tr:hover {background-color: #ddd; }
+
+.StatTables th {
+    padding: 0px 0px;
+    text-align: center;
+    background-color: var(--DarkBlue);
+    color: white;
+}
+

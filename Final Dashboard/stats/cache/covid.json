@@ -1,0 +1,17 @@
+{
+    "name": "CovidStats",
+    "url": "https://www.gov.sg/features/covid-19",
+    "date_last_ran": "Fri Aug 13 2021 05:33:43 GMT+0000 (Coordinated Universal Time)",
+    "date_last_ran_timestamp": 1628832823800,
+    "data": [
+        {
+            "cases": "Total new cases: 59        Active clusters: 119        In hospitals: 490 (9 in ICU)        Fatalities: 43        Fatalities (past 28 days): 7        Total new cases (past 7 days): 504",
+            "index": 1,
+            "timestamp": 1628832823330,
+            "uid": "kjHPP0aJOVsqjlEYxOIt",
+            "url": "https://www.gov.sg/features/covid-19",
+            "url_uid": 1,
+            "vaccination": "3,992,931"
+        }
+    ]
+}

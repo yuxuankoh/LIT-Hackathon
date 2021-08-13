@@ -1,5 +1,5 @@
 //log in csv file and then make the elements from events
-fetch('assets/timeline_csvs/sample_timeline_data.csv')
+fetch('./timeline/timeline_csvs/sample_timeline_data.csv')
 .then(response => response.text())
 .then(function(text){
     array_of_events = CSVToArray(text);
@@ -87,9 +87,10 @@ function generateEvents(array_of_events){
         // <div class="container">
         //   <div class="circle"></div>
         //   <div class="content">
-        //     <h2>2017</h2>
-        //     <p>Lorem ipsum..</p>
-        //     <button><i></i><h4>Add to Calendar</h4></button>
+        //   <div>
+        //     <h2>2017</h2> <button><i></i></button>
+        //   </div>
+        //   <p>Lorem ipsum..</p>
         //   </div>
         // </div>
         var container_div = document.createElement("div");
@@ -100,23 +101,17 @@ function generateEvents(array_of_events){
         var content_div = document.createElement("div");
         content_div.className = "timeline_content"
 
+        var header_button_div = document.createElement("div");
+        header_button_div.className = "headerButton"
         var h2_el = document.createElement("H2");
         h2_el.className ="timeline_date"
         h2_el.innerHTML = array_of_events[i][0] //date
-        var p_el = document.createElement("p");
-        p_el.className ="timeline_details"
-        //clean up text of event
-        array_of_events[i][1] = array_of_events[i][1].replace(/[\u{0080}-\u{FFFF}]/gu,"") 
-        p_el.innerHTML = array_of_events[i][1] //event
+        header_button_div.appendChild(h2_el)
 
         var add_el = document.createElement("button");
         var i_el = document.createElement("i");
         i_el.className ="fa fa-calendar-plus-o"
         add_el.appendChild(i_el)
-        button_text_el = document.createElement("h4");
-        button_text_el.innerHTML = "Add to Calendar"
-        button_text_el.className = "button_text"
-        add_el.appendChild(button_text_el)
         add_el.className = "add_button"
         add_el.onclick = function (){
             date = new Date(array_of_events[i][0])
@@ -130,10 +125,16 @@ function generateEvents(array_of_events){
                     "&ctz=Singapore"
             window.open(link,'_blank')//open google calendar in new window
         }
+        header_button_div.append(add_el)
 
-        content_div.appendChild(h2_el)
+        var p_el = document.createElement("p");
+        p_el.className ="timeline_details"
+        //clean up text of event
+        array_of_events[i][1] = array_of_events[i][1].replace(/[\u{0080}-\u{FFFF}]/gu,"") 
+        p_el.innerHTML = array_of_events[i][1] //event
+
+        content_div.appendChild(header_button_div)
         content_div.appendChild(p_el)
-        content_div.appendChild(add_el)
 
         container_div.appendChild(circle_div)
         container_div.appendChild(content_div)
