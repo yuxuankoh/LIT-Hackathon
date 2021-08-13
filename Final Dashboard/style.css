@@ -34,9 +34,9 @@ body {
     border-left: 1px solid #e7e7e7;
   }
 }
-.navbar-top-links {
+/* .navbar-top-links {
   margin-right: 0;
-}
+} */
 
 .navbar-top-links li {
   display: inline-block;
@@ -60,7 +60,7 @@ body {
 }
 
 .navbar-top-links .dropdown-menu li a {
-  padding: 3px 20px;
+  padding: 3px 200px;
   min-height: 0;
 }
 
@@ -236,33 +236,6 @@ body {
   clear: both;
 }
 
-table.dataTable thead .sorting,
-table.dataTable thead .sorting_asc,
-table.dataTable thead .sorting_desc,
-table.dataTable thead .sorting_asc_disabled,
-table.dataTable thead .sorting_desc_disabled {
-  background: 0 0;
-}
-
-table.dataTable thead .sorting_asc:after {
-  content: "";
-  float: right;
-  font-family: fontawesome;
-}
-
-table.dataTable thead .sorting_desc:after {
-  content: "";
-  float: right;
-  font-family: fontawesome;
-}
-
-table.dataTable thead .sorting:after {
-  content: "";
-  float: right;
-  font-family: fontawesome;
-  color: rgba(50, 50, 50, 0.5);
-}
-
 .btn-circle {
   width: 30px;
   height: 30px;
@@ -309,22 +282,23 @@ table.dataTable thead .sorting:after {
 }
 
 .panel-green {
-  border-color: #5cb85c;
+  border-color: #b8a05c;
 }
 
 .panel-green .panel-heading {
   border-color: #5cb85c;
+  text-align: left;
   color: #fff;
   background-color: #5cb85c;
 }
 
 .panel-green a {
-  color: #5cb85c;
+  color: #000;
 }
 
-.panel-green a:hover {
+/* .panel-green a:hover {
   color: #3d8b3d;
-}
+} */
 
 .panel-red {
   border-color: #d9534f;
@@ -340,47 +314,36 @@ table.dataTable thead .sorting:after {
   color: #d9534f;
 }
 
-.panel-red a:hover {
+/* .panel-red a:hover {
   color: #b52b27;
-}
+} */
 
 .panel-yellow {
-  border-color: #f0ad4e;
+  border-color: #FFBC50;
 }
 
 .panel-yellow .panel-heading {
-  border-color: #f0ad4e;
+  border-color: #FFBC50;
   color: #fff;
-  background-color: #f0ad4e;
+  background-color: #FFBC50;
+  display: flex;
 }
-
+/* Color of Words */
 .panel-yellow a {
-  color: #f0ad4e;
+  color: #000;;
 }
 
-.panel-yellow a:hover {
+/* .panel-yellow a:hover {
   color: #df8a13;
-}
+} */
 
 .stats_header{
   display: flex;
   flex-direction: row;
 }
 
-i.fa-comments{
-  font-size: 40px;
-}
 
 .regulations_div{
   overflow: auto;
   height: 150px;
 }
-
-df-messenger {
-  --df-messenger-bot-message: var(--Grey);
-  --df-messenger-button-titlebar-color: var(--DarkBlue);
-  --df-messenger-chat-background-color: white;
-  --df-messenger-font-color: white;
-  --df-messenger-send-icon: var(--DarkBlue);
-  --df-messenger-user-message: var(--LighterBlue);
- }
