@@ -1,9 +1,12 @@
-fetch('https://simplescraper.io/api/95K5Xug8MDIO1E8ltnYX?apikey=B8jOpLf5MWrV0Hh40kFppbpf7u9AwEAE&limit=100')
-.then(response => response.text())
-.then(function(text){
-    generateTable(text);
-    }
-)
+urls = urls = ['./stats/cache/covid.json', 'https://simplescraper.io/api/95K5Xug8MDIO1E8ltnYX?apikey=B8jOpLf5MWrV0Hh40kFppbpf7u9AwEAE&limit=100']
+
+Promise.all(urls.map(u=>fetch(u))).then(responses =>
+    Promise.all(responses.map(res => res.text()))
+).then(texts => {
+    generateTableCovid((texts[0]));
+    generateTable((texts[1]));
+})
+
 function generateTable(text) {
     var parsed = JSON.parse(text)
     var data = parsed.data
@@ -36,4 +39,22 @@ function generateTable(text) {
         }
         table.appendChild(row)
     }
+}
+
+function generateTableCovid(text) {
+    var parsed = JSON.parse(text)
+    var data = parsed.data
+    cols = ["cases", "vaccination"]
+    row = document.getElementById("CovidTable")
+    
+
+    cases_el = document.createElement("span")
+    stats = data[0][cols[0]].split(" ")
+    cases_el.innerHTML = "Total new cases (past 7 days): " + stats[stats.length-1].toString()
+    row.appendChild(cases_el)
+
+    vac_el = document.createElement("span")
+    vac_el.innerHTML = "Completed Full Vaccination Regimen: " + data[0][cols[1]].toString()
+    row.appendChild(vac_el)
+
 }

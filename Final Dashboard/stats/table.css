@@ -22,7 +22,7 @@
     text-decoration: none;
 }
 
-.StatTables tr:nth-child(even){background-color: #f2f2f2;}
+.StatTables tr:nth-child(even){background-color: white;}
 
 .StatTables tr:nth-child(odd){background-color: #e2e2e2;}
 
@@ -33,5 +33,14 @@
     text-align: center;
     background-color: var(--DarkBlue);
     color: white;
+}
+
+#CovidTable{
+    padding: 0px 10px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #e7e7e7;
 }
 
