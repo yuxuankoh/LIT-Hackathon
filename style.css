@@ -2305,4 +2305,14 @@ article{
 	margin: 0px 5px;
 }
 
+.FeaturedArticles article a{
+	font-size: 16px;
+}
+
+.FeaturedArticles img{
+	margin: 0px;
+}
+
+
+
 
