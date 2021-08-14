@@ -16,37 +16,51 @@ import csv
 import json
 import os
 import random
+import fileinput
 
 # check cwd
 # print(os.path.abspath(os.getcwd()))
 
+# loop all json n directory
+# myPath = '../scrapped_json_latest'   
+# myFiles=os.listdir(myPath)
+
 # load JSON files for F&B ONLY
-with open('../scrapped_json_old/food_retail.json', 'r') as f:
-  data = json.load(f)
+# with open('C:/Users/penny/Desktop/LIT/scrapped_json_latest/retail/retail_1.json', 'r',encoding="utf-8") as f:
+with open('C:/Users/penny/Desktop/LIT/scrapped_json_latest/retail/retail_3.json', 'r',encoding="utf-8") as f:
+  raw_data = json.load(f)
 
-# load trained model
-nlp_model = spacy.load('test_model')
+# with open('../../timeline_csvs/timeline_food.csv', mode='w', newline='') as file:
+# with open('../../timeline_csvs/timeline_hotel.csv', mode='w', newline='') as file:
+with open('../../timeline_csvs/timeline_retail.csv', mode='w', newline='') as file:
 
-# output csv timeline
-with open('../timeline_csvs/timeline_food_retail.csv', mode='w', newline='') as file:
-  writer = csv.writer(file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+    writer = csv.writer(file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        
+    for i in range(1, len(raw_data)):
     
-  for i in range(1, len(raw_data)):
-    sentence = raw_data[i]['answer']
-    doc = nlp_model(sentence)
-    flag1 = False 
-    flag2 = False
+        # read other types of scrapped data
+        if 'answer' in raw_data[0]:
+            sentence = raw_data[i]['answer']
+        else:
+            sentence = raw_data[i]['text']
 
-    for entity in doc.ents:
-      if entity.label_ == 'DATE_S':
-        date_s = entity.text
-        flag1 = True
-            
-      if entity.label_ == 'EVENT':
-        event = entity.text
-        flag2 = True
+        # print(sentence)
+        doc = nlp_model(sentence)
+        flag1 = False 
+        flag2 = False
 
-    if flag1 and flag2:
-      # print(date_s)
-      # print(event)
-      writer.writerow([date_s, event.capitalize()])
+        for entity in doc.ents:
+            if entity.label_ == 'DATE_S':
+                date_s = entity.text
+                flag1 = True
+                
+            if entity.label_ == 'EVENT':
+                event = entity.text
+                flag2 = True
+
+        if flag1 and flag2:
+            # print(date_s)
+            if event[0] in string.punctuation:
+                event = event[1:]
+            writer.writerow([date_s, event.capitalize()])
+    file.close() 
