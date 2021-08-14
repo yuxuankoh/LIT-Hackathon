@@ -17,7 +17,7 @@ div.timeline {
   position: relative;
   bottom: 30px;
   padding-bottom: 10px;
-  max-height: 150px;
+  max-height: 200px;
 }
 
 div.timeline_container {
