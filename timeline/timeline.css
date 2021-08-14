@@ -17,6 +17,7 @@ div.timeline {
   position: relative;
   bottom: 30px;
   padding-bottom: 10px;
+  max-height: 200px;
 }
 
 div.timeline_container {
@@ -61,7 +62,6 @@ div.timeline_content{
   flex-direction: column;
   min-width: 100px;
   max-width: 600px;
-  max-height: 150px;
   margin-top: 0px;
 }
 
