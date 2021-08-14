@@ -1,0 +1,534 @@
+[
+    {
+        "question": "Can establishments with Pub/Bar/Nightclub/Disco (PBND) licenses continue to provide takeaway and delivery services?",
+        "answer": "F&B establishments are allowed to continue food service operations, with the exception of (i) establishments with Pubs, Bars, Nightclubs, Discos and Karaoke SFA license categories or SSIC codes starting with 5613, and (ii) nightlife operators that were allowed to pivot to F&B operations as listed at (https://covid.gobusiness.gov.sg/permittedlist/) (operations suspended from 16 July through 30 July).",
+        "start": [
+            "16 July"
+        ],
+        "end": [
+            "30 July"
+        ],
+        "day_of": []
+    },
+    {
+        "question": "Will enforcement officers check against the number of people my company have declared to work onsite?",
+        "answer": "In relation to the safe management measure on work-from-home, enforcement officers will review whether the role of the worker who is working onsite cannot be performed from home.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "The website reflects that my exemption application is still processing. What should I do?",
+        "answer": "Your application is being processed. Please check back on your application status in the next 2 to 3 days. You will also receive an official email notification to inform you if your application is approved or rejected.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "My food establishment is located within an industrial building. Can it be allowed for dine-in during this period?",
+        "answer": "It can only serve takeaway and/or delivery orders only. No dine-in service is permitted. Customers are not permitted to consume any food or drinks on-site whilst waiting for the food to be prepared.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Why is the manpower submission requirement for Marine & Offshore and Process sectors different?",
+        "answer": "From 1 July 2020, businesses that falls under the Marine & Offshore and Process sectors will be required to submit details of the employees/workers (https://foodservices.gobusiness.gov.sg/exemptions/login). This submission of manpower details is required to facilitate information updates for the AccessCode on the SGWorkPass app, including the approval to work and the requirement for regular swabbing. Failure to do so will cause the employees SGWorkPass AccessCode status to reflect as Red.",
+        "start": [
+            "1 July 2020"
+        ],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "The website reflects that my exemption application is approved. What should I do?",
+        "answer": "Please proceed to declare your manpower details (https://go.gov.sg/covidbusinessresumptions). Please note that you are still subjected to a manpower quota as your company is not in the list of permitted services.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Who does the requirements apply to?",
+        "answer": "All businesses allowed to operate are required to have implemented Safe Management Measures.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "My operating costs will increase due to the increased demand for takeaway containers. Can the Government help with costs?",
+        "answer": "To help mitigate costs, F&B establishments can encourage customers to bring their own takeaway containers. Some establishments have already started to do so by offering incentives such as a small discount.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "What manpower details must I submit, and from when should I be submitting?",
+        "answer": "You will need to submit the FIN/NRICs of your workers/employees that are working on-site, and the maximum number of workers on site at any given time. If your workers are working on-site, you will also need to provide the address of the work premises, and indicate whether the work premises is a production site (e.g. shipyards/ production plant) or non-production site (e.g. other workplaces/ office premise). Please note that workers deployed at production sites will be required to undergo <strong>Rostered Routine Testing (RRT)</strong>.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "I am unable to find the status of my application for General Exemption on covid.gobusiness.gov.sg. What should I do?",
+        "answer": "Please allow at least 2-3 days for your application to be processed.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "What if we run out of takeaway containers?",
+        "answer": "Singapore has sufficient stock of takeaway containers. Supply chains are open and new stocks are continuing to arrive in Singapore. Local suppliers are also ramping up their production capabilities to prepare to meet the increased demand.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Why is work-from-home still the default as we transition out of Phase 2 Heightened Alert?",
+        "answer": "As we transition out of Phase 2 Heightened Alert in the coming weeks, it remains essential that we continue to keep transmission risks in check by reducing overall footfall and interactions at common spaces at or near the workplace, and in public places, including public transport. Therefore, work-from-home will continue to be the default during this transition period. Employers must provide the necessary facilities and direct their employees to work from home wherever possible. Only employees who are unable to work from home (e.g. work requiring access to equipment that is confined to the workplace) are permitted to continue working on-site.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "What is considered a production site?",
+        "answer": "Production site is defined as areas where shipbuilding/ship repair, process maintenance and construction activities are carried out. Examples of production sites includes shipyards, process plants, refineries and fabrication workshops.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "I am self-employed / own a business with multiple entities. Do I need to submit my applications individually or will one application cover all my businesses?",
+        "answer": "You will need to submit one application for each registered business. One application per UEN number.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Must a food delivery personnel wear a mask at all times?",
+        "answer": "Food delivery personnel must wear a mask at all times in the course of their work.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Do I have to apply to resume operations at my companys workplace premises?",
+        "answer": "The Multi-Ministry Task Force has announced that selected activities and services are allowed to resume operations. Companies that fall under the list of activities and services do not need to apply before resuming operations. Please go to (https://covid.gobusiness.gov.sg) for more details.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "If my office is located within my production site, how should I indicate so in my manpower submission?",
+        "answer": "If the office staff do not come into contact with the production site workers and are clearly segregated, you can indicate your premises as a non-production site.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Is there a guide on how to apply for a Time-Limited Exemption?",
+        "answer": "Yes. The Guide on how to apply for a Time-Limited Exemption can be found (https://go.gov.sg/covidbusinessresumptions).",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "If my worker/employees are deployed across multiple sites, how do I indicate so when submitting my manpower details?",
+        "answer": "You will need to click on the Add Premises button to key in the details of your workers/employees that are deployed across multiple sites.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Can work-related events continue to be held at F&B establishments?",
+        "answer": "Work-related events (both non customer-facing and customer-facing) can be held within the workplace premises and third-party venues. Prevailing guidelines for the respective event venues will apply.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Are the requirements mandatory, and what enforcement actions will MOM take against businesses that do not implement Safe Management Measures?",
+        "answer": "MOM and sector agencies will take calibrated enforcement actions based on the areas of non-compliance found. For workplaces that severely lack Safe Management Measures, we will direct employers to stop operations at the workplace. Employers will have to take steps to ensure that Safe Management Measures are in place before operations can resume.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "How many times can I apply for Time-Limited Exemptions (TLEs)?",
+        "answer": "You will be allowed to submit up to 2 TLE applications each week<sup>1</sup>.",
+        "start": [],
+        "end": [
+            "2 TLE"
+        ],
+        "day_of": []
+    },
+    {
+        "question": "If my company has multiple work premises, do I need to submit manpower details for all my workers across all the different work premises?",
+        "answer": "You will need to click on the Add Premises button to key in the details of all your companys work premises.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "How can F&B establishments apply for earlier vaccination for their frontline workers?",
+        "answer": "F&B establishments interested in earlier vaccination can reach out to Restaurant Association of Singapore (RAS) at enquiry@ras.org.sg. RAS will work with F&B companies to obtain the necessary details to facilitate earlier vaccination.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Who is empowered to enforce the requirements and how can I verify the identity of enforcement officers inspecting my workplace?",
+        "answer": "Enforcement action may be taken by any of the following persons under the COVID-19 (Temporary Measures) Act:",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "What should I do if I need to apply for the Time-Limited Exemption more than twice in the same week?",
+        "answer": "Further appeals will not be considered.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Will I receive any additional notification to know whether my worker/employee is approved to work on-site? How do I know if my submitted manpower is approved to work on-site?",
+        "answer": "Upon submission of the manpower details, you will receive an email acknowledgement. The AccessCode on SGWorkPass app will determine whether your submitted manpower is allowed to work on site. The AccessCode will factor in a few parameters, namely:",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "What are the next steps after applying for earlier vaccination? How long will F&B frontline workers have to wait to be vaccinated?",
+        "answer": "The Government recognises that staff of F&B dine-in establishments are involved in higher-risk activities and will facilitate earlier vaccination of individuals who work in these settings. Individuals will receive a SMS directly from MOH to book their appointment slots for vaccination, once there are available slots. We seek your understanding that SMSes will be sent progressively as vaccination appointment slots are made available as supplies arrive. Individuals are also encouraged to register under the national vaccination programme at http://www.vaccine.gov.sg if they are already in eligible age groups.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Where can I find more guidance on implementing Safe Management Measures in the workplace?",
+        "answer": "You may refer to (https://www.mom.gov.sg/-/media/mom/documents/covid-19/annex-b-checklist-of-safe-management-measures.pdf), Checklist of Safe Management Measures at the Workplace for Resumption of Business Activities, for an overview of the requirements that must be fulfilled prior to resuming business activities at the workplace.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "When will I know whether my Time-Limited Exemption (TLE) application has been approved?",
+        "answer": "You will receive an acknowledgement email of the approval of your TLE application.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "By when should I submit my manpower details to know whether my worker/employee will be allowed to work on-site?",
+        "answer": "You will need to submit your manpower details by 1730 hours, for your worker/employees AccessCode to be updated by 2359 hours on the following day via the SGWorkPass app.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Is the earlier vaccination open to all F&B frontline workers, including foreigners?",
+        "answer": "All staff of F&B dine-in establishments are eligible for earlier vaccination, regardless of nationality. Interested F&B establishments can reach out to Restaurant Association of Singapore (RAS) at enquiry@ras.org.sg for more details.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Is it compulsory to fill in and maintain the checklist provided in Annex B?",
+        "answer": "(https://www.mom.gov.sg/-/media/mom/documents/covid-19/annex-b-checklist-of-safe-management-measures.pdf) sets out the requirements needed for employers to resume operations. Employers are not required to fill out the checklist, but must ensure that the documents listed in the checklist (or equivalent) are available upon request by officials.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "What should I do if I need to deploy my manpower very urgently (i.e. less than 24-hour notice period)?",
+        "answer": "You are required to apply for the (https://go.gov.sg/covidbusinessresumptions) one day before deploying your staff. You are encouraged to plan for deployment of manpower accordingly.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "What happens if the employee/workers AccessCode is not updated?",
+        "answer": "If you have submitted your manpower details by 1730 hours, your employee/workers AccessCode will only be updated by 2359 hours on the following day. If you require assistance, please write to MTI at (mailto:covid_gobusiness@mti.gov.sg).",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Can I apply for earlier vaccination if I have already registered interest for vaccination previously?",
+        "answer": "If you have not received your vaccination booking registration code from MOH, you can still apply for earlier vaccination. To apply, you can reach out to Restaurant Association of Singapore (RAS) at enquiry@ras.org.sg for more details.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Are there specific Safe Management Measures for each sector (e.g. construction, F&B, retail)?",
+        "answer": "The requirements on Safe Management Measures at the workplace released by MOM is for general workplace settings. For specific workplace settings or sector requirements, please refer to (https://covid.gobusiness.gov.sg/safemanagement/sector).",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Can I amend, cancel or void my Time-Limited Exemption application if there are changes in my manpower deployment plans?",
+        "answer": "A Time-Limited Exemption application cannot be amended, cancelled or voided once it has been submitted regardless of circumstances. It will still be counted towards your submission quota of twice per week.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "When do I need to update my manpower details submission?",
+        "answer": "You will need to update your manpower details as soon as there is a change in the specific workers required to work on-site, as this will affect arrangements for your workers regular swab tests.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Can F&B companies apply for priority vaccination for all employees, beyond frontline workers (staff who work at settings with unmasked clients/patrons, or where there is prolonged contact between individuals)?",
+        "answer": "The Government will facilitate earlier vaccination of all frontline staff who work at the physical outlets (including front-of-house and back-of-house operations) of dine-in F&B establishments as there is a higher risk for staff who work at settings with unmasked clients/patrons, or where there is prolonged contact between individuals. All other employees working in F&B companies (e.g. corporate staff, central kitchen staff) or non-dine in establishments (e.g. takeaway kiosks) will have to register under the national vaccination programme at http://www.vaccine.gov.sg.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "We have received two advisories, one from MOM and another from the sector agency. Which one do we follow?",
+        "answer": "The advisory on Safe Management Measures and the accompanying checklist issued by MOM are for general workplace settings. Where there may be sector-specific considerations, companies should also refer to the sector-specific advisories issued, over and above MOMs advisory.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "I am not allowed to apply for a Time-Limited Exemption. What should I do?",
+        "answer": "If you are unable to apply for a Time-Limited Exemption, please contact our helpdesk at (mailto:covid_gobusiness@mti.gov.sg) for further assistance.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "My SSIC code is in Marine/Offshore/Process but that is not the nature of my work. Do I still have to submit my manpower details?",
+        "answer": "Manpower details are required for companies utilising Marine Shipyard or Process manpower quota as defined under MOM. These details are required to ensure that your workers SG WorkPass app AccessCode reflects their approval to be deployed for work and to facilitate arrangement for regular swab tests.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "How can I find out more about the national vaccination programme? What are the side effects of vaccination?",
+        "answer": "For more details on the national vaccination programme, you can visit http://www.vaccine.gov.sg.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "My employees do not have a specific workplace as they are deployed to clients site to provide goods and services. How can I implement Safe Management Measures?",
+        "answer": "All employers must implement Safe Management Measures at their workplaces for all employees and contractors.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "If I see a non-permitted business continue to operate even though it is not supposed to, what should I do?",
+        "answer": "Please report this business and provide relevant details such as its name, address and relevant evidence (e.g. photographs) to (mailto:covid_gobusiness@mti.gov.sg)",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "I have successfully submitted my manpower details but the Workpass app still comes out as red. Can I proceed to deploy my workers?",
+        "answer": "The AccessCode factors in a few parameters, namely:",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "I am a big establishment with a lot of outlets and employees. Will there be an alternative to self-collecting the kits?",
+        "answer": "To facilitate the collection of test kits, F&B establishments should submit full details at (https://go.gov.sg/fet-registration-food) by 5 July 2021.",
+        "start": [],
+        "end": [
+            "5 July 2021"
+        ],
+        "day_of": []
+    },
+    {
+        "question": "If my business activities are not listed in the permitted services list, can I apply for an exemption to resume business activities?",
+        "answer": "Businesses should suspend operations in their premises from 7 April 2020 onwards until they are approved by MTI to continue operations or their list of business activity falls within the (htps://covid.gobusiness.gov.sg/faq/resumption/resumption/) allowed to operate from 2 June 2020.",
+        "start": [
+            "7 April 2020",
+            "2 June 2020"
+        ],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "I am having problems logging into Corppass. Who can I approach for help?",
+        "answer": "You can contact the Corppass Helpdesk at 6335-3530 or email (mailto:support@corppass.gov.sg).",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "How do I create an account on SRS to upload the employees swab test results?",
+        "answer": "F&B establishments must submit their details at (https://go.gov.sg/fet-registration-food) for the set-up of their SRS accounts.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "My company is currently operating under a General Exemption, as our business activities are currently not listed in the permitted services list. Can our employees who are currently working from home return to the workplace?",
+        "answer": "Companies operating under a General Exemption must submit an application for additional manpower via the GoBusiness portal, to allow more employees to return to the workplace.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "When will the SRS be ready for upload of results?",
+        "answer": "The SRS is ready for companies to upload results. More details on the uploading of results to the SRS will be provided at www.enterprisesg.gov.sg/fast-easy-testing.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "What should I do if I see a business that is not in the permitted services list continuing to operate even though it is not supposed to?",
+        "answer": "Please report the incident to (covid_gobusiness@mti.gov.sg) and include relevant details such as company name, address and relevant evidence (e.g. photographs).",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "How do I add entries for new supervisors/update supervisors details on the SRS?",
+        "answer": "Once the companys SRS account has been created, the POC may log into the account to upload supervisors details, as well as make edits subsequently. The upload of supervisors details would give them access to submit test results through the unique company SRS link.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "What should I do if my employer refuses to implement Safe Management Measures in the workplace?",
+        "answer": "If you notice any breach of Safe Management Measures or poor practices at the workplace, you can report it via (https://www.mom.gov.sg/eservices/snapsafe), an app that allows the reporting of workplace safety and health issues to MOM.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Is there a deadline for employers to key in the test results onto the SRS portal?",
+        "answer": "Establishments are required to upload the results of the outlet workers swab tests to the SRS on the same day as the tests are taken (within 24 hours).",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Is there a limit to the number of migrant workers a company can deploy at each renovation site?",
+        "answer": "Contractors should deploy a minimal number of workers at renovation workplaces and must ensure that Ministry of Manpowers Safe Management Measures at workplaces are complied with at renovation workplaces to mitigate the risk of community transmission. All personnel on site must observe safe management measures such as clear physical distancing, wearing of masks and must avoid socialising or congregating in groups.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "I understand that the F&B FET regime is mandatory from 15 July. I have received my ART test kits but am experiencing technical issues with the Swab Registration System (SRS) (e.g. unable to log into the system/ upload supervisors/ upload results). What should I do? Can I still continue to operate?",
+        "answer": "You can continue to operate. However, if you have received your ART test kits, you should proceed with the testing of your staff and keep a record of the results. Once the SRS system issues have been resolved, you will need to upload these backdated results into the system. Subsequently, all AG+ or Double Invalid test results will have to be uploaded onto SRS no later than 30 minutes after the ESSS for that specific staff is completed; whereas all other AG- test results needs to be logged onto SRS within 24 hours.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "If my renovation project involves more than one team of contractors, are they allowed to work at the same renovation site at the same time?",
+        "answer": "Different teams of contractors (main or sub-contractors) can carry out their respective work within the same renovation site, at the same time and day. However, all personnel on site must observe safe management measures such as clear physical distancing, wearing of masks and must avoid socialising or congregating in groups.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "What are the latest measures that retail establishments and lifestyle-related services need to note?",
+        "answer": "From 22 July through 18 August 2021, retail establishments and lifestyle-related services are to comply with the following:",
+        "start": [
+            "22 July"
+        ],
+        "end": [
+            "18 August 2021"
+        ],
+        "day_of": []
+    },
+    {
+        "question": "Are companies that have resumed operations required to ensure that their employees work-from-home?",
+        "answer": "Work-from-home is currently the default mode of work . Employers must provide the necessary facilities and direct their employees to work from home wherever possible.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "How can supermarket manage queues now that the measures may result in more people buying groceries to cook at home?",
+        "answer": "Supermarket retailers should implement other crowd management measures (e.g. limiting the number of shoppers within the store at any one time) to ensure that one metre spacing can be maintained between shoppers. They would also need to limit groups of customers entering the store to no more than 2 persons, as well as maintain orderly queues in-store, and at entrance to store.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Is there a minimum % or number of workers that employers must place on work-from-home arrangements?",
+        "answer": "The overarching objective of the requirements is to reduce physical interactions in the workplace in order to minimise spread of COVID-19. Employers should focus on providing the facilities necessary and directing every worker to work from home, as far as reasonably practicable. The proportion of employees that can do so will vary in different workplaces and sectors due to differing operational requirements.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Are game arcades permitted to continue operations?",
+        "answer": "Yes, they can remain open. However, operators must practise safe management and safe distancing measures, including adhering to the occupancy limit of one person per 16 sqm of Gloss Floor Area (GFA) or 25% of operating capacity, whichever is lower. They must ensure that common touchpoints are disinfected frequently.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Should my workers put on the masks at all times? What if my worker has medical condition?",
+        "answer": "Every individual should put on a mask at all times, except when eating, drinking or consuming medication, or engaging in strenuous physical exercise.  However, if the individual has severe medical conditions, he may wear a face shield in lieu of a mask.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Are playgrounds/ indoor playgrounds permitted to open?",
+        "answer": "Common play areas for children/toddlers/infants in retail stores or malls can remain open. Operators of these play areas must ensure at least one-metre spacing between groups of customers.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "What should I do if my employees are unwilling to work from home because their home is not conducive for work?",
+        "answer": "The overarching objective of these regulations is to reduce physical interactions in order to prevent spread of COVID-19. Employers can consider different ways to implement working arrangements that comply with the Safe Management Measures for the workplace, while taking business and employee preferences into account.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Are beauty services permitted to continue operations?",
+        "answer": "Beauty services and/or activities that require customers to remove their masks must cease from 22 July through 18 August 2021. These include beauty services and/or activities offered at retail outlets.",
+        "start": [
+            "22 July"
+        ],
+        "end": [
+            "18 August 2021"
+        ],
+        "day_of": []
+    },
+    {
+        "question": "As most of my employees are either doing frontline work or fieldwork operations, it is not feasible for me to rearrange the work such that they can work-from-home. Will I be penalised for not providing such work arrangements?",
+        "answer": "Employers must demonstrate the business or operational reasons why the workers working at the workplace are unable to work-from-home despite review and redesign of work processes. Our inspectors will assess the efforts put in by companies to implement work-from-home arrangements based on the practicality of whether the workers can work-from-home given the nature of the job.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Are massage/spa services permitted to continue operations?",
+        "answer": "Massage services are still allowed to operate within private rooms. However, customers will need to have their masks on at all times.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Are there any available resources to help my business review work processes to enable employees to work-from-home?",
+        "answer": "Yes, the Infocomm Media Development Authority (IMDA) provides a list of (https://www.imda.gov.sg/bizgodigital) that aims to make business continuity essential more accessible to businesses.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    },
+    {
+        "question": "Are TCM patients allowed to take off their masks during their consultation?",
+        "answer": "Patients of licensed Traditional Chinese Medicine (TCM) practitioners are allowed to remove their masks during their consultation/treatment, if required. They must wear their masks as soon as their consultation/treatment is complete.",
+        "start": [],
+        "end": [],
+        "day_of": []
+    }
+]
