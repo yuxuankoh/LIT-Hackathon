@@ -82,6 +82,10 @@ body {
   min-width: 0;
 }
 
+.navbar-header{
+  background-color: #e7e7e7;
+  height: 200px;
+}
 /* .navbar-top-links .dropdown-messages {
   margin-left: 5px;
 }
