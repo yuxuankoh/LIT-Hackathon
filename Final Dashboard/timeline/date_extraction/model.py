@@ -1,4 +1,5 @@
-# give credit
+# Code References on using blank models in spaCy
+# Machine Learning Plus - https://www.machinelearningplus.com/nlp/training-custom-ner-model-in-spacy/
 
 import spacy
 import requests
@@ -57,21 +58,6 @@ DATA = [
   (u"Beauty services and or activities that require customers to remove their masks must cease from 22 July through 18 August 2021. These include beauty services and or activities offered at retail outlets.", {'entities': [ (95,102,'DATE_S'), (111,125,'DATE_E'), (0, 89, 'EVENT')] })
 ]
 
-# for str in RAW_DATA:
-#     new_str = str.replace("-","")
-#     DATA.append(new_str)
-# for key, val in enumerate(RAW_DATA):
-#     if key
-
-# import string
-# punctuations = list(string.punctuation)
-# infixes = nlp.Defaults.suffixes
-# for x in punctuations:
-#     infixes = infixes + tuple([re.escape(x)],)
-
-# infix_regex = spacy.util.compile_infix_regex(infixes)
-# nlp.tokenizer.infix_finditer = infix_regex.finditer
-
 for _, annotations in DATA:
   for ent in annotations.get("entities"):
     ner.add_label(ent[2])
@@ -80,33 +66,26 @@ optimizer = nlp.begin_training()
 
 # Training for 30 iterations
 for i in range(30):
-     
-    # shuufling examples before every iteration
-    random.shuffle(DATA)
-    losses = {}
+  
+  # shuufling examples before every iteration
+  random.shuffle(DATA)
+  losses = {}
     
-    # batch up the examples
-    batches = minibatch(DATA, size=compounding(4.0, 32.0, 1.001))
-    # for batch in batches:
-    #     texts, annotations = zip(*batch)
-    #     nlp.update(
-    #                 texts,  # batch of texts
-    #                 annotations,  # batch of annotations
-    #                 drop=0.5,  # dropout - make it harder to memorise data
-    #                 losses=losses,
-    #             )
+  # batch up the examples
+  batches = minibatch(DATA, size=compounding(4.0, 32.0, 1.001))
 
-    for batch in batches:
-        texts, annotations = zip(*batch)
+  for batch in batches:
+    texts, annotations = zip(*batch)
                 
-        example = []
-            # Update the model with iterating each text
-        for i in range(len(texts)):
-            doc = nlp.make_doc(texts[i])
-            example.append(Example.from_dict(doc, annotations[i]))
+    example = []
+    
+    # Update the model with iterating each text
+    for i in range(len(texts)):
+      doc = nlp.make_doc(texts[i])
+      example.append(Example.from_dict(doc, annotations[i]))
                 
-            # Update the model
-            nlp.update(example, drop=0.5, losses=losses)
+      # Update the model
+      nlp.update(example, drop=0.5, losses=losses)
 
 # upload trained model in directory
 nlp.to_disk("test_model")
