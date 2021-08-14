@@ -21,6 +21,9 @@ function createArticles(data) {
     
     if (newsData.articles != null){
         for (var i=0;i<newsData.articles.length;i++){
+            if (i==5){
+                break
+            }
             list_el = document.createElement("li")
             a_el = document.createElement("a")
             a_el.href  =newsData.articles[i].url || ""

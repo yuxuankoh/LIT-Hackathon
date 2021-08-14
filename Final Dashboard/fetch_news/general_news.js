@@ -1,7 +1,5 @@
 //generate url from filters
-keywords = ["Dine-in", "Hawker", "Restaurants","\"Wet Markets\"", "\"Food centres\"",
-"Food", "Caterers","Beverage", "F%26B", "\"Food court\"", "Diners", 
-"\"Coffee Shops\"","Kopitiam", "Takeaway", "\"Wet Market\"", "\"Singapore Food Agency\"", "SFA", "Fishery"]
+keywords = ["dine-in", "cases", "vaccination"]
 
 start_of_url = "https://newsapi.org/v2/everything?"   
 end_of_url = "&apiKey=ad78940518af41fe97d6be1036fd18ed"
@@ -21,6 +19,7 @@ function createArticles(data) {
     blog_articles = document.getElementById("news_panel")
     
     if (newsData.articles != null){
+
         for (var i=0;i<newsData.articles.length;i++){
             if (i==5){
                 break

@@ -244,6 +244,7 @@ body {
 .huge {
   font-size: 25px;
   text-align: left;
+  padding-left: 20px;
 }
 
 .panel-green {
@@ -295,9 +296,6 @@ body {
   height: 167px;
 }
 
-.overview {
-  padding-left: 50px;
-}
 
 df-messenger {
   --df-messenger-bot-message: var(--Grey);
@@ -308,9 +306,10 @@ df-messenger {
   --df-messenger-user-message: var(--LighterBlue);
  } 
 
- .FnB_Tab, .FnB_Tab a{
+ .Highlight_Tab, .Highlight_Tab a{
    background-color: #05445E;
    color: white;
  }
+
 
 
