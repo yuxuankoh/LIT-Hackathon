@@ -18,12 +18,14 @@ import os
 import random
 import fileinput
 
-# check cwd
-# print(os.path.abspath(os.getcwd()))
+
 
 # loop all json n directory
 # myPath = '../scrapped_json_latest'   
 # myFiles=os.listdir(myPath)
+
+# load trained model
+nlp_model = spacy.load('test_model')
 
 # load JSON files for F&B ONLY
 # with open('C:/Users/penny/Desktop/LIT/scrapped_json_latest/retail/retail_1.json', 'r',encoding="utf-8") as f:
