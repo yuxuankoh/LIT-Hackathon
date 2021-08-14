@@ -118,6 +118,7 @@ function generateEvents(array_of_events){
             formated_date = formatDate(date)
             text = encodeURI('Covid-19 Event')
             details = encodeURI(array_of_events[i][1])
+            details = details.replace("&", "%26")
             link = "https://calendar.google.com/calendar/r/eventedit?"+
                     "&text="+text+
                     "&details="+details+
