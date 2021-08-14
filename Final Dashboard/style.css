@@ -308,3 +308,9 @@ df-messenger {
   --df-messenger-user-message: var(--LighterBlue);
  } 
 
+ .FnB_Tab, .FnB_Tab a{
+   background-color: #05445E;
+   color: white;
+ }
+
+
