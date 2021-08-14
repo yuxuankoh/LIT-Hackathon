@@ -234,7 +234,7 @@ body {
 }
 
 .huge {
-  font-size: 30px;
+  font-size: 25px;
   text-align: left;
 }
 
@@ -281,15 +281,14 @@ body {
   color: #df8a13;
 } */
 
-.stats_header{
-  display: flex;
-  flex-direction: row;
-}
-
 
 .regulations_div{
   overflow: auto;
-  height: 150px;
+  height: 167px;
+}
+
+.overview {
+  padding-left: 50px;
 }
 
 df-messenger {
@@ -300,3 +299,4 @@ df-messenger {
   --df-messenger-send-icon: var(--DarkBlue);
   --df-messenger-user-message: var(--LighterBlue);
  } 
+
