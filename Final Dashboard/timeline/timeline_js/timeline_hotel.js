@@ -1,5 +1,5 @@
 //log in csv file and then make the elements from events
-fetch('./timeline/timeline_csvs/timeline_data_f&b.csv')
+fetch('./timeline/timeline_csvs/timeline_data_hotel.csv')
 .then(response => response.text())
 .then(function(text){
     array_of_events = CSVToArray(text);
