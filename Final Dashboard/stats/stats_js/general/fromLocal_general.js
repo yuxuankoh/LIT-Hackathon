@@ -25,11 +25,18 @@ function generateTable(text) {
     }
     table.appendChild(row)
     
-
+    value = 0
     for (let i=0;i<data.length;i++){
-        // ignore this row
-        if (data[i]["Items"]=="Items"){
+         excluded_rows=["Items","GDP in Chained (2015) Dollars","Per Capita GDP",
+         "Per Capita GNI","Gross Fixed Capital Formation at Current Prices"]
+        if (excluded_rows.includes(data[i]["Items"])){
             continue;
+        }
+        if (value==1 && data[i]["Items"]=="GDP at Current Market Prices"){
+            continue;
+        }
+        if (data[i]["Items"]=="GDP at Current Market Prices"){
+            value = 1
         }
         row = document.createElement("tr")
         for (let j=0;j<cols.length;j++){
